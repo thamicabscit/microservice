@@ -23,7 +23,7 @@ public class Controller {
 	
 	
 	@GetMapping("/get")
-	public List<Entity> get()
+	public List<Entity> getEmp()
 	{
 		return this.repo.findAll();
 		
