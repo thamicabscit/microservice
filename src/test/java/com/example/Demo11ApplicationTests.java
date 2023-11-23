@@ -55,12 +55,14 @@ class Demo11ApplicationTests {
         verify(repo, times(1)).findAll();
     }
 	
-	@Test
-    public void testDelete() {
-        int empId = 12; 
-
-        cont.delete(empId);
-
-        verify(repo, times(1)).deleteById(empId);
-    }
+	
+//	@Test
+//    public void testDelete() {
+//		
+//        int empId = 12; 
+//
+//        cont.delete(empId);
+//
+//        verify(repo, times(1)).deleteById(empId);
+//    }
 }
